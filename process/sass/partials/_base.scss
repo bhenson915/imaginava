@@ -1,0 +1,38 @@
+/* ========== Base Styles ==========*/
+
+body {
+    color: $darkblue;
+    background-color: $blue;
+}
+
+header {
+    background: url('../img/clouds.svg');
+    background-color: $blue;
+    background-repeat: no-repeat;
+    margin-bottom: 2em;
+
+}
+
+footer {
+    background: url('../img/footer.svg');
+    background-repeat: no-repeat;
+    min-height: 200px;
+}
+
+p {
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    margin: 0;
+}
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.center {
+    text-align: center;
+}
