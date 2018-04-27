@@ -1,0 +1,36 @@
+{
+  "name": "embark",
+  "version": "1.0.0",
+  "description": "Imaginava is a website dedicated to all things imagination by Ava Henson",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch /process/sass -o /build/imaginava/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bhenson915/imaginava.git"
+  },
+  "author": "Ava Henson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bhenson915/imaginava.git"
+  },
+  "homepage": "https://github.com/bhenson915/imaginava.git",
+  "dependencies": {
+    "flexbox-grid-sass": "^4.1.0",
+    "gulp": "^3.9.1",
+    "gulp-ruby-sass": "^3.0.0",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-webserver": "^0.9.1",
+    "node-sass": "^4.7.2",
+    "typed.js": "^2.0.6"
+  },
+  "devDependencies": {
+    "gulp-jshint": "^2.1.0",
+    "gulp-jshint-html-reporter": "^0.1.3",
+    "gulp-sass": "^3.1.0",
+    "jshint": "^2.9.5",
+    "jshint-stylish": "^2.2.1"
+  }
+}
